@@ -1,0 +1,11 @@
+---        
+- hosts: localhost
+  gather_facts: no
+  tasks:
+  - name: Ansible create file with content example
+    copy:
+      dest: /home/unix/AnsibleNew/animal.txt
+      content: |
+        dog1
+        tiger
+        rat
