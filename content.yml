@@ -6,6 +6,6 @@
     copy:
       dest: /home/unix/AnsibleNew/animal.txt
       content: |
-        dog1
+        dog12
         tiger
         rat
